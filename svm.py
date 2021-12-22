@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore")
 
 
 st.title('STOCK MARKET PREDICTION USING SUPPORT VECTOR MACHINE')
-user_input = st.text_input('Enter The Stock Ticker', 'AAPL')
+user_input = st.text_input('Enter The Stock Ticker', 'MSFT')
 start = '2010-01-01'
 end = '2021-12-15'
 df = data.DataReader(user_input,'yahoo',start,end)
